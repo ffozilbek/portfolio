@@ -40,10 +40,64 @@ main {
 
 /* CONTAINER */
 .container {
-    max-width: 1200px;
+    max-width: 800px;
     width: 100%;
     padding-left: 50px;
     padding-right: 50px;
     margin-left: auto;
     margin-right: auto;
+}
+.header {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header__img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.header__user-info {
+}
+.user {
+    text-align: center;
+}
+.user__name {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.user__contacts {
+    text-align: left;
+}
+.main {
+}
+.main__heading {
+    margin-bottom: 10px;
+}
+.main__text {
+}
+.main__projects-list {
+    padding: 20px 30px;
+}
+.main__projects-item {
+    margin-bottom: 10px;
+}
+.main__projects-item-title {
+    margin-bottom: 10px;
+}
+.main__project-links {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main__projects-link {
+    margin-bottom: 10px;
+}
+.link-more {
 }

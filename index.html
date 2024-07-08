@@ -4,12 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <title>Portfolio || Fozilbek Fayzullayev</title>
 </head>
 
 <body>
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__img-wrapper">
+                <img class="header__img" src="./img/user.jpg" alt="User face picture" width="100" height="100">
+            </div>
+            <div class="header__user-info user">
+                <h1 class="user__name">Fozilbek Fayzullayev</h1>
+                <p class="user__bio">Frontend dasturchi.2020 yil bu sohani o'rganishni boshlaganman.</p>
+                <div class="user__contacts">
+                    <h2 class="user__contacts-heading">Linklar:</h2>
+                    <a class="user__link" href=""><i class="fa-brands fa-telegram"></i> Telegram</a> ||
+                    <a class="user__link" href=""><i class="fa-brands fa-instagram"></i> Instagram</a> ||
+                    <a class="user__link" href=""><i class="fa-brands fa-github"></i> Github</a> ||
+                    <a class="user__link" href=""><i class="fa-solid fa-phone"></i> Telefon</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <h2 class="main__heading">Loyihalar</h2>
+            <p class="main__text">Har bir loyiha haqida batafsil ma'lumot, undagi sahifalar rasmlari, ketkazilgan vaqt
+                detallari va maket tuzilishi jarayonida duch kelingan murakkab nuqtalar alohida sahifalarda berilgan.
+            </p>
+            <ul class="main__projects-list">
+                <li class="main__projects-item">
+                    <h3 class="main__projects-item-title">Ecommerce product page</h3>
+                    <time datetime="2024-07-08">2024-yil 8-iyul</time>
+                    <div class="main__project-links">
+                        <a class="main__projects-link" href="https://github.com/ffozilbek/ecommerce"><i
+                                class="fa-brands fa-github"></i> Github repo</a> ||
+                        <a class="main__projects-link" href="https://ffecommercedemo.netlify.app/"><i
+                                class="fa-solid fa-globe"></i> Netlify</a>
+                    </div>
+                    <p class="main__project-descr">Onlayn do'konning mahsulot haqidagi sahifasi. Murakkab tomonlari
+                        ba'zi CSS klassga ko'ra ko'rinishi o'zgartiruvchi bo'limlar bor. Rasmlar galereyasi va lightbox
+                        ham mavjud.</p>
+                    <a class="link-more" href="https://teletype.in/@fozil_bek/hdgmJz6KBIe">Batafsil ma'lumot...</a>
+                </li>
+            </ul>
+        </div>
+    </main>
     <script src="./js/script.js"></script>
 </body>
 
